@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#081821, #0b2a38);
+  color: white;
+  text-align: center;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 420px;
+  margin: 30px auto;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  background: #b22222;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background: #dc143c;
+}
+
+.content {
+  margin: 30px auto;
+  max-width: 500px;
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 12px;
+}
